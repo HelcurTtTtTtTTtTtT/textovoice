@@ -94,6 +94,15 @@ select {
     background-position-y: 20px
 }
 
+.downloadButton img{
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+}
+
+.img #ok {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+}
 
 /* Responsive Small devices (phones) */
 
@@ -120,6 +129,7 @@ select {
         background-size: 12px;
         background-position-x: calc(100% - 15px);
         background-position-y: 18px;
+        padding: 10px;
     }
 
     button {
@@ -137,3 +147,4 @@ img {
     height: auto;
 }
 
+/* NOW IT IS FULLY RESPONSIVE YAYY */
